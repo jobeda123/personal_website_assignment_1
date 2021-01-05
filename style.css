@@ -1,0 +1,110 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0%;
+}
+
+h1{
+    font-size: 60px;
+    color: #363958;
+}
+
+h2{
+    font-size: 40px;
+    color: #363958;
+}
+
+h3{
+    font-size: 20px;
+    color: #363958;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+
+.nav ul{
+    margin: 2%;
+    padding-left: 1000px;
+}
+  
+.nav li{
+    display: inline;
+    padding-right: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+section{
+   /* border: 3px solid green;*/
+    height: 900px;
+}
+
+.half-width{
+    /*border: 3px solid red;*/
+    width: 40%;
+    height: 450px;
+    margin-left: 7%;
+    float: left;
+}
+
+.half-width img{
+    /*border: 5px solid blue;*/
+    width: 100%;
+    margin-top: 0%;
+}
+
+.button-link{
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 20px 50px;
+    color: white;
+    border-color: white;
+}
+
+.name-highlight{
+    color: #FF8063;
+}
+
+.work{
+    background-color: #e9ebfa;
+}
+
+.work h2{
+    text-align: center;
+    padding: 6% 0%;
+
+}
+
+.outer{
+    /*border: 2px solid black; */
+    height: 380px;
+    margin: 0% 5%;
+
+}
+.work-outer-box{
+    width: 28%;
+    height: 374px;
+    box-shadow: 10px 20px 20px grey;
+    float: left;
+    margin-left: 2%;
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.work-outer-box img{
+    background-repeat: no-repeat;
+    width: 346px;
+    height: 214px;
+}
+
+.intro-about{
+    height: 500px;
+    /*border: 2px solid black; */
+}
