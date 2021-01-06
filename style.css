@@ -1,5 +1,5 @@
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
 
@@ -18,43 +18,54 @@ h3{
     color: #363958;
 }
 
+h4{
+    color: #3E3E3E;
+}
+
 p{
+    /*border: 2px solid forestgreen; */
+    width: 85%;
     font-size: 16px;
     line-height: 24px;
     color: #3E3E3E;
 }
 
+
+
 .nav ul{
     margin: 2%;
     padding-left: 1000px;
 }
-  
 .nav li{
     display: inline;
     padding-right: 40px;
 }
-
 .nav a{
     text-decoration: none;
 }
+
+
 
 section{
    /* border: 3px solid green;*/
     height: 900px;
 }
 
+
+.intro-about{
+    padding-bottom: 20px;
+    height: 500px;
+    margin-top: 40px;
+   /* border: 2px solid black; */
+}
+
+
 .half-width{
-    /*border: 3px solid red;*/
+    /*border: 3px solid red; */
     width: 40%;
     height: 450px;
     margin-left: 7%;
     float: left;
-}
-
-.half-width img{
-    /*border: 5px solid blue;*/
-    width: 100%;
-    margin-top: 0%;
 }
 
 .button-link{
@@ -66,12 +77,49 @@ section{
     border-color: white;
 }
 
+#button-hire{
+    margin-top: 6%;
+}
+
+.half-width img{
+    /*border: 5px solid blue;*/
+    width: 80%;
+    margin-top: 0%;
+}
+
+.test-half-width{
+    /*border: 3px solid red;*/
+    width: 30%;
+    height: 450px;
+    margin-left: 10%;
+    padding-left: 70px;
+    float: left;
+}
+
+.test-half-width img{
+   /* border: 2px solid rebeccapurple;   */
+    border-radius: 100%;
+    width: 50%;
+}
+
+#test-paragraph{
+    padding: 80px 20px 80px 20px;
+    text-align: left;
+    box-shadow: 10px 20px 20px grey;
+    border-radius: 15px;
+}
+
+
+
 .name-highlight{
     color: #FF8063;
 }
 
+
 .work{
     background-color: #e9ebfa;
+    border: 1px solid #e9ebfa;
+    padding: 0%;
 }
 
 .work h2{
@@ -104,7 +152,86 @@ section{
     height: 214px;
 }
 
-.intro-about{
+.work-outer-box img{
+    background-repeat: no-repeat;
+    width: 346px;
+    height: 214px;
+}
+
+.testimonial{
+    padding-bottom: 20px;
     height: 500px;
     /*border: 2px solid black; */
+}
+
+.testimonial h2{
+    text-align: center;
+}
+
+.chat-box{
+    width: 906px;
+    height: 225px;
+    background-image: url("images/chat-box.png");
+    background-repeat: no-repeat;
+}
+
+.inner-chat-box{
+    /*border: 5px solid orange; */
+    width: 40%;
+    float: left;
+    margin: 0px 4%;
+    padding-left: 7px;
+    padding-top: 30px;
+}
+
+.inner-chat-box h2{
+    color: white;
+    font-size: 50px;
+}
+
+
+.inner-chat-box a{
+    float: right;
+    margin-top: 45px;
+    margin-right: 25px;
+}
+
+.work-inquiry{
+    margin: 0px 300px;
+   /* border: 2px solid indianred; */
+    height: 550px;
+}
+
+.work-inquiry h2{
+    text-align: center;
+}
+
+.stay-connect-area{
+    /*border: 4px solid firebrick; */
+    text-align: center;
+    margin-top: 50px;
+}
+.three-pic{
+    margin-left: 350px;
+}
+
+.small-pic{
+    float: left;
+    padding-left: 25px;
+}
+
+.service img{
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    padding-left: 30%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 100px;
 }
